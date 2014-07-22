@@ -1,3 +1,12 @@
+"""
+Unitary Coherent Particle Filter (UCPF)/ Temporal Restricted Boltzmann Machine (TPBM) Hippocampus model
+---------
+Authors: Mathew Evans, Alan Saul, Tony Prescott and Charles Fox
+
+This code implements the hippocampus model (and reproduces the figures) from Saul, Prescott and Fox Proc. IEEE ROBIO 2011.
+This model involves image processing (SURF feature extraction), TRBM place cell model with particle filter learning.
+"""
+## Import all the code dependencies
 import matplotlib
 #matplotlib.use('Agg')
 import matplotlib.pyplot as plt
